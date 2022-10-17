@@ -1,0 +1,37 @@
+#Calculator {
+    margin-top: 150px;
+}
+h1 {
+    color: #BAD7DF;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.calsy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Display {
+    border: 2px solid #93c7d4;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 320px;
+}
+input {
+    background-color: white;
+    color:  #93c7d4;
+    border: none;
+    border: 1px solid #93c7d4;
+    font-size: 16px;
+}
+.button, .button-zero, .operator{
+    width: 40px;    
+height: 30px;    
+border: none;    
+border-radius: 8px;    
+margin-left: 17px;    
+cursor: pointer;    
+border-top: 2px solid transparent; 
+}
